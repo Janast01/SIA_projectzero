@@ -35,7 +35,7 @@ class LoginController extends Controller
 
         Auth::login($user);
     }
-
+    
     // Google Login
     public function redirectToGoogle()
     {
